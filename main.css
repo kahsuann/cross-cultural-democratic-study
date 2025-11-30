@@ -1,0 +1,98 @@
+body {
+  background-color: #f4f1e8;
+  text-align: center;
+}
+
+body.modal-open {
+  overflow: hidden;
+}
+
+.back-btn {
+  text-align: left;
+  width: fit-content;
+  border: 2px solid transparent;
+  border-radius: 20px;
+  background-image: linear-gradient(#f4f1e8, white), radial-gradient(circle at top left, white, white);
+  background-origin: border-box;
+  background-clip: content-box, border-box;
+}
+
+.back-btn span {
+  display: block;
+  padding: 8px 16px;
+}
+
+.container {
+  display: flex;
+}
+
+.chars {
+  width: 33.3%;
+  text-align: center;
+  padding: 5% 0%;
+}
+
+.forum {
+  width: 50%;
+  text-align: center;
+  padding: 5% 0%;
+}
+
+.char-img {
+  object-fit: cover;
+  width: 300px;
+  height: 300px;
+}
+
+button {
+  padding: 0px;
+  border: 0px;
+  background-color: #f4f1e8;
+}
+
+img {
+  height: 40%;
+  width: 40%;
+}
+
+.sg-text {
+  padding: 10% 5%;
+  width: 50%;
+  text-align: justify;
+  font-size: 20px;
+}
+
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 5vh; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+}
+
+/* Modal Content */
+.modal-content {
+  padding: 0% 10%;
+  width: 80%;
+  height: 85%;
+}
+
+/* The Close Button */
+.close {
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+

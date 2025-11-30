@@ -2,8 +2,9 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8">
-    <title>Characters Page</title>
-    <link rel="stylesheet" href="./characters.css" />
+    <title>Characters and Forums</title>
+    <link rel="stylesheet" href="./main.css" />
+    <script src="modal.js" defer></script>
   </head>
 
   <body>
@@ -18,21 +19,39 @@
 
     <div class="container">
       <div class="chars">
-        <a href="./singapore.html">
+        <button class="modal-btn" data-modal="modal-sg">
           <img class="char-img" src="./images/speakers' corner.jpg" src="Speakers' Corner" />
-        </a>
+        </button>
+        <div id="modal-sg" class="modal">
+          <div class="modal-content">
+            <span class="close">&times;</span>
+            <iframe src="./singapore.html" width="100%" height="100%"></iframe>
+          </div>
+        </div>
         <p>Singapore, A Civil Servant's Perspective</p>
       </div>
       <div class="chars">
-        <a href="./hong kong.html">
+        <button class="modal-btn" data-modal="modal-hk">
           <img class="char-img" src="./images/umbrella movement.jpg" src="2014 Umbrella Movement" />
-        </a>
+        </button>
+        <div id="modal-hk" class="modal">
+          <div class="modal-content">
+            <span class="close">&times;</span>
+            <iframe src="./hong kong.html" width="100%" height="100%"></iframe>
+          </div>
+        </div>
         <p>Hong Kong, A (Former) Protestor's Perspective</p>
       </div>
       <div class="chars">
-        <a href="./usa.html">
+        <button class="modal-btn" data-modal="modal-usa">
           <img class="char-img" src="./images/gun laws.webp" src="US Gun Laws" />
-        </a>
+        </button>
+        <div id="modal-usa" class="modal">
+          <div class="modal-content">
+            <span class="close">&times;</span>
+            <iframe src="./usa.html" width="100%" height="100%"></iframe>
+          </div>
+        </div>
         <p>USA, A Teacher's Perspective</p>
       </div>
     </div>
