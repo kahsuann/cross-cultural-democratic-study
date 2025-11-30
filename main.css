@@ -55,9 +55,24 @@ img {
   width: 40%;
 }
 
-.sg-text {
+.img-hk {
+  padding-top: 10%;
+}
+
+.video {
+  padding-top: 2%;
+}
+
+.half-text {
   padding: 10% 5%;
   width: 50%;
+  text-align: justify;
+  font-size: 20px;
+}
+
+.full-text {
+  margin: 0px;
+  padding: 2% 10%;
   text-align: justify;
   font-size: 20px;
 }
