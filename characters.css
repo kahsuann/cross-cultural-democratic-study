@@ -1,31 +1,51 @@
-.border {
-  background-color: lightgray;
+body {
+  background-color: #f4f1e8;
   text-align: center;
+}
+
+.back-btn {
+  text-align: left;
+  width: fit-content;
+  border: 2px solid transparent;
+  border-radius: 20px;
+  background-image: linear-gradient(white, white), radial-gradient(circle at top left, white, white);
+  background-origin: border-box;
+  background-clip: content-box, border-box;
+}
+
+.back-btn span {
+  display: block;
+  padding: 8px 16px;
 }
 
 .container {
   display: flex;
 }
 
-.chars {
-  height: 500px;
-  width: 33.3%;
-}
-
-#char-1 {
-  background-color: #dfd5dc;
-}
-
-#char-2 {
-  background-color: #d8c2b3;
-}
-
-#char-3 {
-  background-color: #c9bcbb;
+a {
+  display: block;
 }
 
 h1 {
   text-align: center;
+}
+
+.chars {
+  width: 33.3%;
+  text-align: center;
+  padding: 5% 0%;
+}
+
+.forum {
+  width: 50%;
+  text-align: center;
+  padding: 5% 0%;
+}
+
+.char-img {
+  object-fit: cover;
+  width: 300px;
+  height: 300px;
 }
 
 img {
