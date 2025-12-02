@@ -38,12 +38,6 @@ body.modal-open {
   padding: 5% 0%;
 }
 
-.forum {
-  width: 50%;
-  text-align: center;
-  padding: 5% 0%;
-}
-
 .char-img {
   object-fit: contain;
   width: 300px;
