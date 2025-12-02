@@ -39,7 +39,7 @@ body.modal-open {
 }
 
 .char-img {
-  object-fit: cover;
+  object-fit: contain;
   width: 300px;
   height: 300px;
 }
