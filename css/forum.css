@@ -26,7 +26,6 @@ body {
   padding-bottom: 2%;
 }
 
-
 .container {
   display: flex;
 }
@@ -45,8 +44,7 @@ body {
 
 .forum-modal {
   width: 100%; /* Full width */
-  height: 50vh; /* Half height */
-  overflow: auto; /* Enable scroll if needed */
+  height: 40vh; /* Half height */
 }
 
 /* Modal Content */
