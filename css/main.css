@@ -1,14 +1,14 @@
 body {
   background-color: #f4f1e8;
   text-align: center;
+  padding: 2% 0%;
 }
 
 body.modal-open {
   overflow: hidden;
 }
 
-.back-btn {
-  text-align: left;
+.menu-btn {
   width: fit-content;
   border: 2px solid transparent;
   border-radius: 20px;
@@ -17,9 +17,15 @@ body.modal-open {
   background-clip: content-box, border-box;
 }
 
-.back-btn span {
+.menu-btn span {
   display: block;
   padding: 8px 16px;
+}
+
+.container-menu {
+  display: flex;
+  justify-content: center;
+  gap: 8px;
 }
 
 .container {
@@ -111,3 +117,18 @@ img {
   cursor: pointer;
 }
 
+.tooltip {
+  width: 200px;
+  background-color: blue;
+  color: white;
+  text-align: justify;
+  border-radius: 6px;
+}
+
+.tooltip::after {
+  content: "";
+  top: 100%;
+  left: 50%;
+  border-style: solid;
+  border-color: black;
+}
