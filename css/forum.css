@@ -42,6 +42,18 @@ body {
   height: 150px;
 }
 
+#sg-img {
+  background-color: #e1f5fe;
+}
+
+#usa-img {
+  background-color: #f3e5f5;
+}
+
+#hk-img {
+  background-color: #e8f5e9;
+}
+
 .forum-modal {
   width: 100%; /* Full width */
   height: 40vh; /* Half height */
