@@ -8,7 +8,7 @@ nextBtn.addEventListener('click', function() {
     const prevText = document.getElementById('text-' + position.toString())
     prevText.style.display = 'none';
     position++;
-    if (position == 9) {
+    if (position == 12) {
         nextBtn.style.display = 'none';
         prevBtn.style.display = 'none';
         postScript.style.display = 'block';
