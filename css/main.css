@@ -30,6 +30,7 @@ body.modal-open {
 
 .container {
   display: flex;
+  align-items: center;
 }
 
 .chars {
@@ -53,10 +54,7 @@ button {
 img {
   height: 40%;
   width: 40%;
-}
-
-.img-hk {
-  padding-top: 10%;
+  padding: 0% 5%;
 }
 
 .video {
@@ -64,7 +62,7 @@ img {
 }
 
 .half-text {
-  padding: 10% 5%;
+  padding: 5%;
   width: 50%;
   text-align: justify;
   font-size: 20px;

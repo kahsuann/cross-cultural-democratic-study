@@ -86,11 +86,11 @@ body {
 }
 
 #next-btn {
-  left: 52.5%
+  left: 51%
 }
 
 #prev-btn {
-  left: 42.5%
+  right: 51%
 }
 
 .menu-btn span {
